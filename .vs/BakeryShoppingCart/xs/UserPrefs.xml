@@ -1,20 +1,22 @@
 ﻿<Properties StartupConfiguration="{94F7B3A4-3DA3-47F4-91E0-637BB33B68D2}|Default">
   <MonoDevelop.Ide.ItemProperties.BakeryShoppingCart PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BakeryShoppingCart/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BakeryShoppingCart/Array.cs">
     <Files>
-      <File FileName="BakeryShoppingCart/Program.cs" Line="17" Column="45" />
+      <File FileName="BakeryShoppingCart/Program.cs" Line="21" Column="64" />
       <File FileName="BakeryShoppingCart/Models/User.cs" Line="13" Column="28" />
       <File FileName="BakeryShoppingCart/Models/Roles.cs" Line="10" Column="1" />
       <File FileName="BakeryShoppingCart/Models/Images.cs" Line="1" Column="1" />
       <File FileName="BakeryShoppingCart/Models/Posts.cs" Line="1" Column="1" />
       <File FileName="BakeryShoppingCart/Models/Comments.cs" Line="1" Column="1" />
+      <File FileName="BakeryShoppingCart/Array.cs" Line="8" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BakeryShoppingCart" expanded="True" selected="True">
+          <Node name="BakeryShoppingCart" expanded="True">
             <Node name="BakeryShoppingCart" expanded="True">
               <Node name="Models" expanded="True" />
+              <Node name="Array.cs" selected="True" />
             </Node>
           </Node>
         </State>
