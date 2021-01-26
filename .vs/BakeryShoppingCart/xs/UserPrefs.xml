@@ -1,18 +1,31 @@
 ﻿<Properties StartupConfiguration="{94F7B3A4-3DA3-47F4-91E0-637BB33B68D2}|Default">
   <MonoDevelop.Ide.ItemProperties.BakeryShoppingCart PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BakeryShoppingCart/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BakeryShoppingCart/DTOS/RoleDTO.cs">
     <Files>
       <File FileName="BakeryShoppingCart/Program.cs" Line="19" Column="2" />
       <File FileName="BakeryShoppingCart/Models/User.cs" Line="1" Column="1" />
+      <File FileName="BakeryShoppingCart/DTOS/ImageDTO.cs" Line="9" Column="46" />
+      <File FileName="BakeryShoppingCart/DTOS/PostsDTO.cs" Line="10" Column="41" />
+      <File FileName="BakeryShoppingCart/DTOS/RoleDTO.cs" Line="1" Column="1" />
+      <File FileName="BakeryShoppingCart/DTOS/UserDTO.cs" Line="1" Column="1" />
+      <File FileName="BakeryShoppingCart/DTOS/CommentDTO.cs" Line="10" Column="46" />
+      <File FileName="BakeryShoppingCart/Models/Comments.cs" Line="12" Column="1" />
+      <File FileName="BakeryShoppingCart/Models/Images.cs" Line="9" Column="9" />
+      <File FileName="BakeryShoppingCart/Models/Posts.cs" Line="13" Column="1" />
+      <File FileName="BakeryShoppingCart/Models/Roles.cs" Line="9" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BakeryShoppingCart" expanded="True">
             <Node name="BakeryShoppingCart" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="DTOS" expanded="True">
+                <Node name="RoleDTO.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

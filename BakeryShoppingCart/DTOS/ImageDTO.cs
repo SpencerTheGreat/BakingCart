@@ -1,9 +1,9 @@
 ﻿using System;
-namespace BakeryShoppingCart.Models
+namespace BakeryShoppingCart.DTOS
 {
-    public class Images
+    public class ImageDTO
     {
-        public Images()
+        public ImageDTO()
         {
         }
         public string ImagePath { get; set; }

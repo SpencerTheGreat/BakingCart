@@ -1,4 +1,5 @@
 ﻿using System;
+using BakeryShoppingCart.DTOS;
 using BakeryShoppingCart.Models;
 
 namespace BakeryShoppingCart
@@ -7,12 +8,11 @@ namespace BakeryShoppingCart
     {
         static void Main()
         {
-            Posts post = new Posts();
-            post.PostId = 1;
-            post.Post = "This is a post";
+            CommentDTO comment = new CommentDTO();
+            comment.TheComment = "This is a comment";
 
-            Console.WriteLine("The value of my first property is: " + post.PostId);
-            Console.WriteLine("The value of my second property is: " + post.Post);
+            Console.WriteLine("The value of my first property is: " + comment.TheComment);
+            
         }
 
     }
