@@ -7,14 +7,12 @@ namespace BakeryShoppingCart
     {
         static void Main()
         {
-            ConcatanationOfStrings("my firts string", "my second string");
-        }
-        static void ConcatanationOfStrings(string parameter1, string parameter2)
-        {
-            {
-                string result = parameter1 + " " + parameter2;
-                Console.WriteLine(result);
-            }
+            Posts post = new Posts();
+            post.PostId = 1;
+            post.Post = "This is a post";
+
+            Console.WriteLine("The value of my first property is: " + post.PostId);
+            Console.WriteLine("The value of my second property is: " + post.Post);
         }
 
     }

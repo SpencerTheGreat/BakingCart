@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BakeryShoppingCart.Models
+﻿namespace BakeryShoppingCart.Models
 {
     public class User
     {
@@ -8,9 +6,8 @@ namespace BakeryShoppingCart.Models
         {
         }
 
+        public int UserId { get; set; }
         public string UserName { get; set; }
-        public string Password { get; set; }
-        public string Email { get; set; }
 
     }
 }

@@ -6,5 +6,7 @@ namespace BakeryShoppingCart.Models
         public Posts()
         {
         }
+        public int PostId { get; set;}
+        public string Post { get; set;}
     }
 }

@@ -6,5 +6,6 @@ namespace BakeryShoppingCart.Models
         public Comments()
         {
         }
+        public string ImagePath { get; set; }
     }
 }
