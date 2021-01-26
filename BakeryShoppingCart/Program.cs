@@ -5,12 +5,17 @@ namespace BakeryShoppingCart
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            int variable = 0;
-                
+            ConcatanationOfStrings("my firts string", "my second string");
         }
-        
-    
+        static void ConcatanationOfStrings(string parameter1, string parameter2)
+        {
+            {
+                string result = parameter1 + " " + parameter2;
+                Console.WriteLine(result);
+            }
+        }
+
     }
 }
