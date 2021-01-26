@@ -7,6 +7,5 @@ namespace BakeryShoppingCart.Models
         {
         }
 
-
     }
 }

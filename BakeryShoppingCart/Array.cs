@@ -25,8 +25,12 @@ namespace BakeryShoppingCart
             }
 
             }
-        
+
+        internal static void Reverse(char[] charArray)
+        {
+            throw new NotImplementedException();
         }
+    }
     }
 
 
