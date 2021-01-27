@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{94F7B3A4-3DA3-47F4-91E0-637BB33B68D2}|Default">
   <MonoDevelop.Ide.ItemProperties.BakeryShoppingCart PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BakeryShoppingCart/Models/Comments.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BakeryShoppingCart/Program.cs">
     <Files>
-      <File FileName="BakeryShoppingCart/Program.cs" Line="29" Column="60" />
-      <File FileName="BakeryShoppingCart/Models/User.cs" Line="1" Column="1" />
-      <File FileName="BakeryShoppingCart/Models/Comments.cs" Line="1" Column="1" />
+      <File FileName="BakeryShoppingCart/Program.cs" Line="73" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,9 +13,8 @@
                 <Node name="FrameworkReferences" expanded="True" />
               </Node>
               <Node name="DTOS" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Comments.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
