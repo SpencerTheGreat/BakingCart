@@ -6,8 +6,7 @@ using BakeryShoppingCart.Models;
 namespace BakeryShoppingCart
 {
     class Program
-    {
-        private static int x;
+    { 
 
         static void Main()
         {
