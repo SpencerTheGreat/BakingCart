@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.BakeryShoppingCart PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="BakeryShoppingCart/Program.cs">
     <Files>
-      <File FileName="BakeryShoppingCart/Program.cs" Line="130" Column="1" />
+      <File FileName="BakeryShoppingCart/Program.cs" Line="22" Column="55" />
       <File FileName="BakeryShoppingCart/UserNotFoundConsole.cs" />
     </Files>
     <Pads>
