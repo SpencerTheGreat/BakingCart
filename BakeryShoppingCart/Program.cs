@@ -7,45 +7,35 @@ using BakeryShoppingCart.Models;
 namespace BakeryShoppingCart
 {
     class Program
+    // try
     {
-        private static User newUser1;
+        //   ShoppingCart myShoppingCart = new ShoppingCart();
 
-        static void Main()
-        {
+        //   myShoppingCart.ExecuteMainMenu();
+    }
+    //  catch (ShoppingCartException exception)
+    // {
+    // Console.WriteLine(exception.Message);
+    // }
 
-            MyClass<string> newClass = new MyClass<string>();
-            newClass.MyProperty1 = "Hop value";
-            newClass.MyProperty2 = "Skip value";
-            newClass.MyProperty3 = "Jump value";
+    MyClass myVariable = new MyClass();
+    myVariable.MyMethod<string>("string 1", "string 2");
 
-            newClass.PrintSomething();
-            newClass.PrintSomethingelse("Print This !!");
-
+            Console.WriteLine(myVariable.MyProperty1);
+            Console.WriteLine(myVariable.MyProperty2);
         }
-     }
+    }
 }
 
-public class MyClass<T>
 
+public class MyClass
 {
     public string MyProperty1 { get; set; }
-    public T MyProperty2 { get; set; }
-    public T MyProperty3 { get; set; }
+    public string MyProperty2 { get; set; }
 
-        public void PrintSomething()
-
+    public void MyMethod<T>(T parameter1, T parameter2)
     {
-        Console.WriteLine("This is an Action!");
-    }
-
-    public void PrintSomethingelse(T parameter1)
-
-    {
-        Console.WriteLine("The parameter value is the following: ");
-    }
-
-    internal void PrintSomethingelse()
-    {
-        throw new NotImplementedException();
+        this.MyProperty1 = parameter1.ToString();
+        this.MyProperty2 = parameter2.ToString();
     }
 }
