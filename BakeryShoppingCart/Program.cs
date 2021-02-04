@@ -13,12 +13,13 @@ namespace BakeryShoppingCart
 
         //   myShoppingCart.ExecuteMainMenu();
     }
+
     //  catch (ShoppingCartException exception)
     // {
     // Console.WriteLine(exception.Message);
     // }
 
-    MyClass myVariable = new MyClass();
+    private MyClass myVariable = new MyClass();
     myVariable.MyMethod<string>("string 1", "string 2");
 
             Console.WriteLine(myVariable.MyProperty1);
