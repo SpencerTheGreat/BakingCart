@@ -1,7 +1,8 @@
 ﻿using System;
 namespace BakeryShoppingCart.Repositories
 {
-    public interface EmptyInterface
+    public interface ICake_Repository : IMainRepository<Cake>
     {
+        public void GetAllChocolateCakes();
     }
 }

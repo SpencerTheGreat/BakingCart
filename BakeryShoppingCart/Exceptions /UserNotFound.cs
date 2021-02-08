@@ -1,9 +1,9 @@
 ﻿using System;
 namespace BakeryShoppingCart.Exceptions
 {
-    public class CakeNotFound
+    public class UserNotFound
     {
-        public CakeNotFound()
+        public UserNotFound()
         {
         }
     }

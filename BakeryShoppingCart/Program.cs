@@ -3,40 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using BakeryShoppingCart.DTOS;
 using BakeryShoppingCart.Models;
+using BakeryShoppingCart.Repositories;
+using BakeryShoppingCart.Repositories.Implementation;
 
 namespace BakeryShoppingCart
 {
     class Program
-    // try
     {
-        //   ShoppingCart myShoppingCart = new ShoppingCart();
+        static void Main()
+        {
+            UserRepository repository =
+                new UserRepository();
 
-        //   myShoppingCart.ExecuteMainMenu();
-    }
+            User user = new User();
+            user.UserName = "Cory";
+            user.UserId = 1;
+            user.Password = "Password";
+            user.Email = "email@somewhere.com";
 
-    //  catch (ShoppingCartException exception)
-    // {
-    // Console.WriteLine(exception.Message);
-    // }
+            repository.Save(user);
 
-    private MyClass myVariable = new MyClass();
-    myVariable.MyMethod<string>("string 1", "string 2");
+            repository.GetAllUsersByName("Cory");
 
-            Console.WriteLine(myVariable.MyProperty1);
-            Console.WriteLine(myVariable.MyProperty2);
         }
-    }
-}
-
-
-public class MyClass
-{
-    public string MyProperty1 { get; set; }
-    public string MyProperty2 { get; set; }
-
-    public void MyMethod<T>(T parameter1, T parameter2)
-    {
-        this.MyProperty1 = parameter1.ToString();
-        this.MyProperty2 = parameter2.ToString();
     }
 }
