@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using BakeryShoppingCart.DTOS;
+using BakeryShoppingCart.FileManager;
 using BakeryShoppingCart.Models;
 using BakeryShoppingCart.Repositories;
 using BakeryShoppingCart.Repositories.Implementation;
@@ -12,18 +13,11 @@ namespace BakeryShoppingCart
     {
         static void Main()
         {
-            UserRepository repository =
-                new UserRepository();
+            FileManager.FileManagerClass fileManager
+                = new FileManagerClass();
 
-            User user = new User();
-            user.UserName = "Cory";
-            user.UserId = 1;
-            user.Password = "Password";
-            user.Email = "email@somewhere.com";
+            fileManager.CreateAFile("MyFile.txt");
 
-            repository.Save(user);
-
-            repository.GetAllUsersByName("Cory");
 
         }
     }
