@@ -10,5 +10,6 @@ namespace BakeryShoppingCart.Models
         }
         public string ImagePath { get; set; }
         public int CommentId { get; internal set; }
+        public object CakeId { get; internal set; }
     }
 }

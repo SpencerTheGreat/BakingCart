@@ -13,11 +13,11 @@ namespace BakeryShoppingCart
     {
         static void Main()
         {
-            FileManager.FileManagerClass fileManager
-                = new FileManagerClass();
 
-            fileManager.CreateAFile("MyFile.txt");
+            ShoppingCart cart =
+                new ShoppingCart();
 
+            cart.PrintMenu();
 
         }
     }
